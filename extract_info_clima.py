@@ -11,7 +11,7 @@ date_final = date_final.strftime('%Y-%m-%d')
 print(date_final)
 location = 'Boston'
 
-API_KEY = 'NGEHG9RXNLHDD8Q2A3JHSGQ6A'
+API_KEY = ''
 URL_API = join(
     'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/',
     f'{location}/{date_initial}/{date_final}?unitGroup=metric&include=days&key={API_KEY}&contentType=csv'
